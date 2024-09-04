@@ -8,7 +8,7 @@ public static class Conexao
     {
         try
         {
-            string strconexao = "server=localhost;port=3306;uid=root;pwd=Vitorhugo120#;database=gestao_vendas";
+            string strconexao = "server=localhost;port=3306;uid=root;pwd=root;database=gestao_vendas";
             conexao = new MySqlConnection(strconexao);
             conexao.Open();
             Console.WriteLine("Conexão realizada com sucesso!!");
